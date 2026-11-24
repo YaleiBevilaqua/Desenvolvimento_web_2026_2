@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Feedbacks</title>
+</head>
+
+<body>
+
+    <header class="py-3 mb-4 border-bottom fundo_head">
+        <div class="container">
+            <div class="text-center mb-3">
+                <a href="index.html" class="d-inline-flex align-items-center text-decoration-none">
+                    <img src="Imagens/Logo simplificada.png" alt="Logo Orbe Living" class="logo_simples">
+                    <span class="fs-3 letra">ORBE LIVING</span>
+                </a>
+            </div>
+
+            <ul class="nav nav-pills justify-content-center gap-2">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link link_colors letra">Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contatos.html" class="nav-link link_colors letra">Fale Conosco</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="depoimentos.html" class="nav-link link_colors letra">Feedbacks</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="apresentacao.html" class="nav-link link_colors letra">Saiba mais</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="servicos.html" class="nav-link link_colors letra">Nossos serviços</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main class="container py-5">
+
+        <h1 class="titulo text-center mb-2">Feedbacks</h1>
+        <p class="subtitulo text-center mb-5">Veja o que nossos clientes dizem sobre a Orbe Living.</p>
+
+
+        <div class="row g-4" id="listaDepoimentos">
+            <p class="text-center">Carregando depoimentos...</p>
+        </div>
+
+        <section class="card shadow-sm mt-5">
+            <div class="card-body p-4">
+                <h2 class="text-center mb-4">Deixe seu depoimento</h2>
+                <form id="formDepoimento">
+                    <div class="mb-3">
+                        <label for="nomeDepoimento" class="form-label">Seu nome</label>
+                        <input type="text" class="form-control" id="nomeDepoimento" name="nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="textoDepoimento" class="form-label">Seu depoimento</label>
+                        <textarea class="form-control" id="textoDepoimento" name="depoimento" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn fundo_head">Enviar depoimento</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="text-center py-4">
+        <p class="mb-0">© 2026 Orbe Living — Desenvolvido por Yalei Bevilaqua de Carvalho</p>
+    </footer>
+
+    <script src="js/a13.js"></script>
+</body>
+
+</html>
